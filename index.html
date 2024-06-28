@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudfare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.jcss"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- My CSS -->
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
+    <link rel="icon" type="image/x-icon" href="/img/favicon.jpg" />
+    <title>Jakdit Studio</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <header>
+      <div class="navbar fixed-top">
+        <div class="logo"><a href="#">Jakdit Studio</a></div>
+        <ul class="links">
+          <li><a href="#about">About</a></li>
+          <li class="dropdown">
+            <a href="#service"
+              >Services <i class="fa-solid fa-caret-down mx-1"></i
+            ></a>
+            <ul class="dropdown-content">
+              <li>
+                <a href="/serv-web/webdsgn.html">Web Design</a>
+              </li>
+              <li>
+                <a href="/serv-grphc/grphc.html">Graphic Design</a>
+              </li>
+              <li>
+                <a href="/serv-3d/3d.html">3D Modelling</a>
+              </li>
+              <li>
+                <a href="/QR Code Generator/index.html">QR Code Generator</a>
+              </li>
+            </ul>
+          </li>
+          <li class="dropdown">
+            <a href="#project">Project</a>
+          </li>
+          <li><a href="#product">Product</a></li>
+        </ul>
+        <a href="#contact" class="action_btn">Get Started</a>
+        <div class="toggle_btn">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+      </div>
+      <div class="dropdown_menu">
+        <li><a href="#about">About</a></li>
+        <li class="dropdown">
+          <a href="#service"
+            >Services <i class="icon fa-solid fa-caret-down mx-1"></i
+          ></a>
+          <ul class="dropdown-content">
+            <li>
+              <a href="/serv-web/webdsgn.html" class="px-3">Web Design</a>
+            </li>
+            <li>
+              <a href="/serv-grphc/grphc.html">Graphic Design</a>
+            </li>
+            <li>
+              <a href="/serv-3d/3d.html" class="px-3">3D Modelling</a>
+            </li>
+            <li>
+              <a href="/QR Code Generator/index.html">QR Code Generator</a>
+            </li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a href="#project">Project</a>
+        </li>
+        <li><a href="#product">Product</a></li>
+        <li>
+          <a href="#contact" class="action_btn">Get Started</a>
+        </li>
+      </div>
+    </header>
+
+    <!-- HOME -->
+    <div class="jumbotron jumbotron-fluid">
+      <div class="container">
+        <h1 class="display-4">
+          An Indonesian <span>Graphic Design</span> <br />
+          Services with
+          <span>3D Style</span>
+        </h1>
+        <a href="/project/pro-3d.html" class="btn tombol-scnd">Our Work</a>
+      </div>
+    </div>
+
+    <!-- Info Panel -->
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-10 info-panel">
+          <div class="row">
+            <div class="col-lg">
+              <img src="img/clock.png" alt="clock" class="float-start" />
+              <h4>Timeless</h4>
+              <p>18 hours work / day</p>
+            </div>
+            <div class="col-lg">
+              <img
+                src="img/high-quality.png"
+                alt="quality"
+                class="float-start"
+              />
+              <h4>High Quality</h4>
+              <p>300++ dpi</p>
+            </div>
+            <div class="col-lg">
+              <img src="img/best-price.png" alt="price" class="float-start" />
+              <h4>Best Price</h4>
+              <p>start from IDR 10k</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- About -->
+    <div class="container">
+      <div class="row about justify-content-center" id="about">
+        <div class="col-sm-5">
+          <img
+            src="img/jakditstudio_circle.png"
+            alt="about"
+            class="img-fluid"
+          />
+        </div>
+        <div class="col-sm-5">
+          <h3>find out <span>more</span> about us</h3>
+          <p>
+            Jakdit Studio is dedicated to showcasing the 3D and 2D graphic
+            artwork that I have created. Through Jakdit Studio, I want to
+            introduce you to the visually stunning world that I can create
+            through digital art. I use..
+            <a href="/about/about.html" class="btn tombol-thrd">...</a>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Clients -->
+    <div class="clients">
+      <div class="logos">
+        <div class="logos-slide">
+          <img src="img/client/bisaeun-01.png" alt="" />
+          <img src="img/client/chill & cheese-01.png" alt="" />
+          <img src="img/client/scivule-01.png" alt="" />
+          <img src="img/client/potachi-01.png" alt="" />
+          <img src="img/client/suyahoo-01.png" alt="" />
+        </div>
+      </div>
+    </div>
+
+    <!-- Service -->
+    <section id="service">
+      <div class="container-fluid">
+        <div class="container">
+          <div class="service-list">
+            <div class="kartu">
+              <i class="fa-solid fa-code"></i>
+              <h2>Web Design</h2>
+              <p>
+                I worked as freelance a Web Designer for 1 year, which I did in
+                my spare time and gave me broad insight in this field.
+              </p>
+              <br />
+              <a
+                class="btn btn-light"
+                href="/serv-web/webdsgn.html"
+                target="_blank"
+                role="button"
+                >Learn more</a
+              >
+            </div>
+            <div class="kartu">
+              <i class="fa-solid fa-pen-nib"></i>
+              <h2>Graphic Design</h2>
+              <p>
+                A freelance Graphic Designer, who is responsible for designing
+                and building things related to graphic design even if it's 3D.
+              </p>
+              <a
+                class="btn btn-light"
+                href="/serv-grphc/grphc.html"
+                target="_blank"
+                role="button"
+                >Learn more</a
+              >
+            </div>
+            <div class="kartu">
+              <i class="fa-solid fa-cube"></i>
+              <h2>3D Modeling</h2>
+              <p>
+                A freelancer 3D Modeling Artist, who is responsible for
+                designing and building 3D-related things in a project, can be
+                animation or just image.
+              </p>
+              <a
+                class="btn btn-light"
+                href="/serv-3d/3d.html"
+                target="_blank"
+                role="button"
+                >Learn more</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="btn-service">
+        <a href="/service/service.html"><i class="fa-solid fa-ellipsis"></i></a>
+      </div>
+    </section>
+
+    <!-- Project -->
+    <div id="project" class="project text-center">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#ffff"
+          fill-opacity="1"
+          d="M0,288L48,288C96,288,192,288,288,245.3C384,203,480,117,576,96C672,75,768,117,864,154.7C960,192,1056,224,1152,202.7C1248,181,1344,107,1392,69.3L1440,32L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"
+        ></path>
+      </svg>
+      <h1>we can make <span class="fw-bold">everything</span> you want</h1>
+      <a href="/project/pro-3d.html"
+        ><i class="fa-solid fa-circle-arrow-right"></i
+      ></a>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#a886ff"
+          fill-opacity="1"
+          d="M0,288L48,288C96,288,192,288,288,245.3C384,203,480,117,576,96C672,75,768,117,864,154.7C960,192,1056,224,1152,202.7C1248,181,1344,107,1392,69.3L1440,32L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+        ></path>
+      </svg>
+    </div>
+
+    <!-- Products -->
+    <section id="product">
+      <div class="container">
+        <div class="row text-center pt-3">
+          <div class="col mt-5 pt-3">
+            <h2 data-aos="fade-down">3D Character</h2>
+          </div>
+        </div>
+        <div class="row pt-3">
+          <div
+            class="col-md-6 col-lg-6 mb-3"
+            data-aos="fade-right"
+            data-aos-delay="50"
+          >
+            <div
+              class="product-box"
+              data-tilt
+              data-tilt-glare
+              data-tilt-max-glare="0.5"
+            >
+              <h4 class="product-name">Snow Girls</h4>
+              <img
+                src="img/dewik_bg.transparant.png"
+                alt="Snow Girls"
+                class="product-img-girls"
+              />
+              <a
+                href="https://gumroad.com/l/GKEDm"
+                target="_blank"
+                class="btn btn-product product-detail-button"
+                >Get for FREE !!</a
+              >
+            </div>
+          </div>
+          <div
+            class="col-md-6 col-lg-6 mb-3"
+            data-aos="fade-left"
+            data-aos-delay="150"
+          >
+            <div
+              class="product-box"
+              data-tilt
+              data-tilt-glare
+              data-tilt-max-glare="0.5"
+            >
+              <h4 class="product-name">Little Red Astronaut</h4>
+              <img
+                src="img/little-red-astronaut(transparent).png"
+                alt="Little Astronaut"
+                class="product-img-astronaut"
+              />
+              <a
+                href="https://gumroad.com/l/nuclU"
+                target="_blank"
+                class="btn btn-product product-detail-button"
+                >Get for FREE !</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path
+        fill="#a886ff"
+        fill-opacity="1"
+        d="M0,128L120,106.7C240,85,480,43,720,37.3C960,32,1200,64,1320,80L1440,96L1440,0L1320,0C1200,0,960,0,720,0C480,0,240,0,120,0L0,0Z"
+      ></path>
+    </svg>
+
+    <!-- Testimoni -->
+    <div class="container">
+      <div id="page" class="site">
+        <div class="container container-try">
+          <div class="testi">
+            <div class="head">
+              <h3>What They Say</h3>
+              <p>See what our clients have to say..</p>
+            </div>
+            <div class="body swiper">
+              <ul class="swiper-wrapper">
+                <li class="swiper-slide">
+                  <div class="wrapper">
+                    <div class="thumbnail">
+                      <img src="img/testi/boska.png" alt="" />
+                    </div>
+                    <div class="aside">
+                      <p>
+                        Proses pengerjaan 2 hari yang sangat memuaskan untuk
+                        video animasi 3D dengan harga yang sangat terjangkau,
+                        terima kasih Jakdit Studio !
+                      </p>
+                      <div class="name">
+                        <h4>Hafizh Al Ghazali</h4>
+                        <p>
+                          Medical Student UNPAD'23 <br />
+                          Illustrator
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li class="swiper-slide">
+                  <div class="wrapper">
+                    <div class="thumbnail">
+                      <img src="img/testi/rafael.png" alt="" />
+                    </div>
+                    <div class="aside">
+                      <p>
+                        Suka banget sama logonya Jakdit Studio, ditambah
+                        desainnya yang selalu menggunakan elemen 3D, keren parah
+                        !!
+                      </p>
+                      <div class="name">
+                        <h4>Rafael Videntio S</h4>
+                        <p>
+                          Elins UGM'23 Student <br />
+                          Graphic Designer | Photographer
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+
+                <li class="swiper-slide">
+                  <div class="wrapper">
+                    <div class="thumbnail">
+                      <img src="img/testi/ka rheza.png" alt="" />
+                    </div>
+                    <div class="aside">
+                      <p>
+                        Padahal deadline nya mepet tapi bisa semaksimal itu sih
+                        gacor banget, menyala abangku !!
+                      </p>
+                      <div class="name">
+                        <h4>Rheza Rahadian D</h4>
+                        <p>
+                          Deputy Head of Bureau 1, <br />
+                          Media and Information BEM KM UGM 2024
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+              <div class="swiper-pagination"></div>
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-button-next"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Contact -->
+    <div class="contactUs" id="contact">
+      <div class="title">
+        <h2>Get In Touch</h2>
+      </div>
+      <div class="box">
+        <!-- Form -->
+        <div class="contact form">
+          <h3>Send a Message</h3>
+          <form
+            action="https://formsubmit.co/e1ff6b988588e3b40623dfaf9c19a011"
+            method="POST"
+          >
+            <div class="formBox">
+              <div class="row50">
+                <div class="inputBox">
+                  <span>First Name</span>
+                  <input
+                    type="text"
+                    placeholder="Dzaky"
+                    name="first_name"
+                    required
+                  />
+                </div>
+                <div class="inputBox">
+                  <span>Last Name</span>
+                  <input type="text" placeholder="Radithya" name="last_name" />
+                </div>
+              </div>
+              <div class="row50">
+                <div class="inputBox">
+                  <span>Email</span>
+                  <input
+                    type="text"
+                    placeholder="dzakyradithya@email.com"
+                    name="email"
+                    required
+                  />
+                </div>
+                <div class="inputBox">
+                  <span>Phone</span>
+                  <input
+                    type="text"
+                    placeholder="+6281312345678"
+                    name="phone"
+                    required
+                  />
+                </div>
+              </div>
+              <div class="row100">
+                <div class="inputBox">
+                  <span>Message</span>
+                  <textarea
+                    placeholder="Enter your message here..."
+                    name="message"
+                    required
+                  ></textarea>
+                </div>
+              </div>
+              <div class="row100">
+                <div class="inputBox">
+                  <input type="submit" value="Send" />
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+        <!-- Info Box -->
+        <div class="contact info">
+          <h3>Contact Info</h3>
+          <div class="infoBox">
+            <div>
+              <span><ion-icon name="location"></ion-icon></span>
+              <p class="pt-3">
+                Sleman, Yogyakarta <br />
+                INDONESIA
+              </p>
+            </div>
+            <div>
+              <span><ion-icon name="mail"></ion-icon></span>
+              <a href="mailto:managementjakdit@gmail.com"
+                >managementjakdit@gmail.com</a
+              >
+            </div>
+            <div class="pt-3">
+              <span><ion-icon name="call"></ion-icon></span>
+              <a href="tel:+6281398809336">+62 813 9880 9336</a>
+            </div>
+          </div>
+          <!-- Social Media Links -->
+          <ul class="sci">
+            <li class="instagram">
+              <a href="https://instagram.com/jakdit.studio/" target="_blank"
+                ><ion-icon name="logo-instagram"></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a
+                href="https://www.youtube.com/channel/UCAp046XRxOvp8Acun4rcCfA"
+                target="_blank"
+                ><ion-icon name="logo-youtube"></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/dzakyradithyaa/"
+                target="_blank"
+                ><ion-icon name="logo-linkedin"></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a href="https://github.com/dzakyradithyaa" target="_blank"
+                ><ion-icon name="logo-github"></ion-icon
+              ></a>
+            </li>
+          </ul>
+        </div>
+        <!-- Map -->
+        <div class="contact map">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d253052.30452472295!2d110.21645892377663!3d-7.689346286538323!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a5ee1c5671249%3A0x3027a76e352bc20!2sKabupaten%20Sleman%2C%20Daerah%20Istimewa%20Yogyakarta!5e0!3m2!1sid!2sid!4v1716437138684!5m2!1sid!2sid"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-left">
+        <h3>Payment Method</h3>
+        <div class="credit-cards">
+          <img src="img/Bank_Mandiri_logo_2016.svg.png" alt="" />
+          <img src="img/Logo_dana_blue.svg.webp" alt="" />
+          <img src="img/paypal-784404_1280.webp" alt="" />
+          <img src="img/BankNegaraIndonesia46-logo.svg.png" alt="" />
+          <img src="img/Logo_ovo_purple.svg.png" alt="" />
+          <img src="img/Gopay_logo.svg.png" alt="" />
+        </div>
+      </div>
+      <div class="footer-center">
+        <div>
+          <i class="fa-solid fa-location-dot"></i>
+          <p><span>Indonesia</span> D I Yogyakarta, Sleman</p>
+        </div>
+        <div>
+          <i class="fa-solid fa-phone"></i>
+          <p>+62 813 9880 9336</p>
+        </div>
+        <div>
+          <i class="fa fa-envelope"></i>
+          <p>
+            <a href="mailto:managementjakdit@gmail.com"
+              >managementjakdit@gmail.com</a
+            >
+          </p>
+        </div>
+      </div>
+      <div class="footer-right">
+        <p class="footer-about">
+          <span>About the studio</span>
+          Jakdit Studio is dedicated to showcasing the 3D and 2D graphic artwork
+          that I have created. Through Jakdit Studio, I want to introduce you to
+          the visually stunning world that I can create through digital art.
+        </p>
+        <div class="footer-media">
+          <a href="#"><i class="fa-brands fa-youtube"></i></a>
+          <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="#"><i class="fa-brands fa-github"></i></a>
+        </div>
+      </div>
+      <div class="footer-copyright">
+        <span> ©Copyright 2024 - Jakdit Studio . All Right Reserved </span>
+      </div>
+    </footer>
+
+    <!-- JS -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="css-backend.js"></script>
+    <script type="text/javascript" src="vanilla-tilt.min.js"></script>
+    <script type="text/javascript">
+      VanillaTilt.init(document.querySelectorAll(".product-box"), {
+        max: 15,
+        speed: 1000,
+        glare: false,
+      });
+    </script>
+  </body>
+</html>

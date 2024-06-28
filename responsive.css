@@ -1,0 +1,204 @@
+/*DEKSTOP Version*/
+@media (max-width: 992px) {
+  .navbar .links,
+  .navbar .action_btn {
+    display: none;
+  }
+  .navbar {
+    padding: 0 20px;
+    background-color: #211e2b;
+  }
+  .navbar .toggle_btn {
+    display: block;
+  }
+  .dropdown_menu {
+    display: block;
+  }
+}
+
+@media (max-width: 576px) {
+  .dropdown_menu {
+    left: 2rem;
+    width: unset;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .contactUs {
+    padding: 20px;
+  }
+  .box {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: "form" "info" "map";
+  }
+
+  .formBox .row50 {
+    display: flex;
+    gap: 0;
+    flex-direction: column;
+  }
+  .inputBox {
+    width: 100%;
+  }
+  .contact {
+    padding: 30px;
+  }
+  .map {
+    min-height: 300px;
+    padding: 0;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  /* Navbar */
+  .navbar {
+    height: 70px;
+    border-radius: 50px;
+    top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: rgba(168, 134, 255, 0.7);
+    backdrop-filter: blur(15px);
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+  }
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    margin-top: 0;
+    margin-left: -60px;
+    text-align: center;
+    background-color: #41375c;
+    width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 99999;
+  }
+  /* Style the links inside the dropdown */
+  .dropdown-content a {
+    color: #fff;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {
+    background-color: #a886ff;
+    color: #211e2b !important;
+    padding: 12px 16px;
+  }
+  /* Show the dropdown content on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+    padding: 0;
+  }
+
+  /* Jumbotron */
+  .jumbotron {
+    margin-top: -50px;
+    height: 660px;
+  }
+  .jumbotron .display-4 {
+    padding-top: 260px;
+    font-size: 40px;
+    margin-bottom: 30px;
+  }
+  /* About */
+  #about {
+    padding-top: 120px;
+  }
+  .about {
+    text-align: left;
+    gap: 50px;
+    padding-top: 50px;
+  }
+  .about img {
+    margin-top: 20px;
+    width: 300px;
+    height: 300px;
+  }
+  .about h3 {
+    font-size: 50px;
+    font-weight: 200;
+    text-transform: uppercase;
+    margin-top: 30px;
+  }
+  .about p {
+    font-size: 18px;
+    color: #7a7a7a;
+    font-weight: 200;
+    margin: 10px 0;
+    text-align: justify;
+  }
+  /* Tombol */
+  .tombol-scnd {
+    padding: 10px 25px;
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 880px) {
+  .footer .footer-left,
+  .footer .footer-center,
+  .footer .footer-right {
+    display: block;
+    width: 100%;
+    margin-bottom: 40px;
+    text-align: left;
+  }
+  .footer .footer-center i {
+    margin-left: 0px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  footer {
+    position: static;
+  }
+}
+
+@media screen and (max-width: 785px) {
+  #service .card h3 {
+    font-size: 1.3rem;
+  }
+  #service .card {
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+    margin-top: 20px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .testi .swiper-pagination {
+    position: relative;
+  }
+  .testi .wrapper {
+    flex-direction: row;
+    padding: 30px 100px;
+  }
+  .test .thumbnail {
+    width: 200px;
+    height: 200px;
+  }
+  .testi :is(.swiper-button-next, .swiper-button-prev) {
+    top: 50%;
+  }
+  .testi .swiper-slide-active .name {
+    transform: translateX(-50px);
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .site {
+    margin-top: 0;
+  }
+  .testi .head {
+    margin-bottom: 30px;
+  }
+  .testi .thumbnail {
+    margin-bottom: 30px;
+  }
+}
